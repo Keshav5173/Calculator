@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div id="main">
+        <div id="heading">
+            <h1>CALCULATOR</h1>
+        </div>
+        <div id="calculatorArea">
+            <div id="calculator">
+                <div id="display">
+                    <br>
+                    <p id="input"></p>
+                    <p id="ans"></p>
+                </div>
+                <div class="buttons">
+                    <button type="button" value="root" class="opt2" id="root"><i class="fa-solid fa-square-root-variable"></i></button>
+                    <button type="reset" value="reset" class="opt2"  id="reset">AC</button>
+                    <button type="button" value="delete" class="opt2"  id="delete"><i class="fa-solid fa-delete-left"></i></button>
+                    <button type="button" value="%" class="opt">%</button>
+                    <button type="button" value="/" class="opt2" id="/"><i class="fa-solid fa-divide"></i></button>
+
+                    <button type="button" value="!" class="opt2" id="!">x!</button>
+                    <button type="button" value="7" class="num"><p>7</p></button>
+                    <button type="button" value="8" class="num"><p>8</p></button>
+                    <button type="button" value="9" class="num"><p>9</p></button>
+                    <button type="button" value="*" class="opt">x</button>
+
+                    <button type="button" value="1/x" class="opt2" id="inv">1/x</button>
+                    <button type="button" value="4" class="num"><p>4</p></button>
+                    <button type="button" value="5" class="num"><p>5</p></button>
+                    <button type="button" value="6" class="num"><p>6</p></button>
+                    <button type="button" value="-" class="opt"><b>-</b></button>
+
+                    <button type="button" value="x*x*x" class="opt2" id="cube">x<sup>3</sup></button>
+                    <button type="button" value="1" class="num"><p>1</p></button>
+                    <button type="button" value="2" class="num"><p>2</p></button>
+                    <button type="button" value="3" class="num"><p>3</p></button>
+                    <button type="button" value="+" class="opt">+</button>
+
+                    <button type="button" value="x*x" class="opt2" id="sq">x<sup>2</sup></button>
+                    <button type="button" value=""></button>
+                    <button type="button" value="0" class="num"><p>0</p></button>
+                    <button type="button" value="." class="opt2" id="decimal">.</button>
+                    <button type="submit" value="=" class="opt2" id="equal">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
